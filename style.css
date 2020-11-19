@@ -57,7 +57,13 @@ header {
     margin: 0;
     padding: 0 3px;
 }
+#move-list button:focus {
+    font-weight: bold;
+}
 
+.bold {
+    font-weight: bold;
+}
 
 #game-result {
     display: inline;

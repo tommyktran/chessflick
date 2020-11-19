@@ -53,6 +53,16 @@ var game = {
         this.movenumber = this.maxmoves;
         chess.load_pgn(game.pgn.join('\n'));
         display();
+    },
+
+    moveBold: function() {
+        var myList = document.getElementById('move-list'); 
+        var myListItems = myList.getElementsByTagName('button');
+        if (game.movenumber < game.maxmoves) {  
+            $("#"+myListItems[game.movenumber].id).trigger("focus");
+        } else {
+            $("#"+myListItems[game.movenumber-1].id).trigger("focus");
+        }
     }
 }
 
@@ -60,11 +70,20 @@ document.getElementById("first").addEventListener("click", function(){game.first
 document.getElementById("previous").addEventListener("click", function(){game.prevMove();});
 document.getElementById("next").addEventListener("click", function(){game.nextMove();});
 document.getElementById("last").addEventListener("click", function(){game.lastMove();});
+document.addEventListener("keydown", function(e){
+    if (e.key == 'ArrowRight') {
+        game.nextMove();
+    }
+    if (e.key == 'ArrowLeft') {
+        game.prevMove();
+    }
+});
 
 
 
 function display() {
     board1.position(chess.fen());
+    game.moveBold();
 }
 
 function loadGame(pgn) {
@@ -101,6 +120,7 @@ function loadMoveList(result = "none") {
             for (let y = 0; y < x; y++) {
                 chess.move(game.moves[y]);
             }
+            game.movenumber = x;
             display();
         };
         node.appendChild(textnode);
