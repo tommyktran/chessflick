@@ -26,6 +26,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
 
     font-size: 40px;
     width: 400px;
@@ -59,6 +60,10 @@ header {
 }
 #move-list button:focus {
     font-weight: bold;
+}
+#play-pause {
+    font-size: 30px;
+    margin-top: 5px;
 }
 
 .bold {

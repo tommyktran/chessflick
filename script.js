@@ -64,17 +64,48 @@ var game = {
         }
     }
 }
-
+var flick = {
+    flickSpeed: 1000,
+    flickOn: false,
+    intervalArray: [],
+    toggleFlick: function() {
+        if (flick.flickOn == false) {
+            this.flickOn = true;
+            document.getElementById("play-pause").innerHTML = "&#x23F8;";
+        } else {
+            this.flickOn = false;
+            document.getElementById("play-pause").innerHTML = "&#x23F5;";
+        }
+        flick.playFlick();
+    },
+    playFlick: function() {
+        if (flick.flickOn == true) {
+            flick.intervalArray[0] = window.setTimeout(function() {
+                game.nextMove();
+                flick.playFlick();
+            }, flick.flickSpeed)
+        } else {
+            display();
+            clearInterval(this.intervalArray[0]);
+        }
+    }
+}
 document.getElementById("first").addEventListener("click", function(){game.firstMove();});
 document.getElementById("previous").addEventListener("click", function(){game.prevMove();});
 document.getElementById("next").addEventListener("click", function(){game.nextMove();});
 document.getElementById("last").addEventListener("click", function(){game.lastMove();});
+document.getElementById("play-pause").addEventListener("click", function(){
+    flick.toggleFlick();
+});
 document.addEventListener("keydown", function(e){
     if (e.key == 'ArrowRight') {
         game.nextMove();
     }
     if (e.key == 'ArrowLeft') {
         game.prevMove();
+    }
+    if (e.key == ' ') {
+        flick.toggleFlick();
     }
 });
 
