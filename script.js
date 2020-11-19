@@ -85,18 +85,31 @@ function loadGame(pgn) {
 }
 
 function loadMoveList(result = "none") {
-    for (let x = 0; x < game.maxmoves; x+=2) {
-        var node = document.createElement("LI");
-        if (typeof game.moves[x+1] != "undefined") {
-            var textnode = document.createTextNode(game.moves[x] + " " + game.moves[x+1]);
+    for (let x = 0; x < game.maxmoves; x++) {
+        var node = document.createElement("button");
+        if (x%2 == 0) {
+            var textnode = document.createTextNode((x/2+1) + ". " + game.moves[x]);
         } else {
             var textnode = document.createTextNode(game.moves[x]);
+            node.style = "padding-right: 3px;"
         }
+        node.id = "mv"+x;
         node.appendChild(textnode);
         document.getElementById("move-list").appendChild(node);
     }
+
+    // for (let x = 0; x < game.maxmoves; x+=2) {
+    //     var node = document.createElement("LI");
+    //     if (typeof game.moves[x+1] != "undefined") {
+    //         var textnode = document.createTextNode(game.moves[x] + " " + game.moves[x+1]);
+    //     } else {
+    //         var textnode = document.createTextNode(game.moves[x]);
+    //     }
+    //     node.appendChild(textnode);
+    //     document.getElementById("move-list").appendChild(node);
+    // }
     if (result != "none") {
-        var node1 = document.createElement("LI");
+        var node1 = document.createElement("p");
         var textnode1 = document.createTextNode(result);
         node1.appendChild(textnode1);
         document.getElementById("move-list").appendChild(node1);

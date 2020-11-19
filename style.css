@@ -46,26 +46,22 @@ header {
     margin: -5px 0 10px;
     font-size: 30px;
 }
+
 #move-list {
-    counter-reset: LIST-ITEMS;
-    padding: 0;
-    line-height: 1.4;
+    line-height: 1.5;
     font-size: 18px;
-    max-height: 150px;
-    overflow-y: auto;
 }
-#move-list li {
+#move-list button {
+    border: none;
+    background-color: white;
+    margin: 0;
+    padding: 0 3px;
+}
+
+
+#game-result {
     display: inline;
-    padding-right: 0.6em;
-    
-}
-#move-list li:before{
-    content: counter( LIST-ITEMS ) ".";
-    counter-increment: LIST-ITEMS;
-    padding-right: 0.25em;
-}
-#game-result:before {
-    display: none;
+    margin: 0 10px;
 }
 
 header nav {
