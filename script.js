@@ -94,20 +94,18 @@ function loadMoveList(result = "none") {
             node.style = "padding-right: 3px;"
         }
         node.id = "mv"+x;
+
+        // Go to move on click
+        node.onclick = function() {
+            chess.reset();
+            for (let y = 0; y < x; y++) {
+                chess.move(game.moves[y]);
+            }
+            display();
+        };
         node.appendChild(textnode);
         document.getElementById("move-list").appendChild(node);
     }
-
-    // for (let x = 0; x < game.maxmoves; x+=2) {
-    //     var node = document.createElement("LI");
-    //     if (typeof game.moves[x+1] != "undefined") {
-    //         var textnode = document.createTextNode(game.moves[x] + " " + game.moves[x+1]);
-    //     } else {
-    //         var textnode = document.createTextNode(game.moves[x]);
-    //     }
-    //     node.appendChild(textnode);
-    //     document.getElementById("move-list").appendChild(node);
-    // }
     if (result != "none") {
         var node1 = document.createElement("p");
         var textnode1 = document.createTextNode(result);
