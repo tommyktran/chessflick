@@ -8,7 +8,6 @@ var game = {
     moves: [],
     movenumber: 0,
     maxmoves: 0,
-    lastfen: "",
     pgn: [
         '[Event "Casual Game"]',
         '[Site "Berlin GER"]',
@@ -93,7 +92,6 @@ function loadGame(pgn) {
     document.getElementById("white-player").innerHTML = chess.header()["White"];
     document.getElementById("black-player").innerHTML = chess.header()["Black"];
 
-    game.lastfen = chess.fen();
     game.moves = chess.history();
     game.maxmoves = game.moves.length;
 
