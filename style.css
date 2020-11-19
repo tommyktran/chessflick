@@ -51,10 +51,13 @@ header {
     padding: 0;
     line-height: 1.4;
     font-size: 18px;
+    max-height: 150px;
+    overflow-y: auto;
 }
 #move-list li {
     display: inline;
     padding-right: 0.6em;
+    
 }
 #move-list li:before{
     content: counter( LIST-ITEMS ) ".";
