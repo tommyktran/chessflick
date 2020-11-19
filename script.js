@@ -85,9 +85,13 @@ var flick = {
                 flick.playFlick();
             }, flick.flickSpeed)
         } else {
-            display();
-            clearInterval(this.intervalArray[0]);
+            flick.pauseFlick();
         }
+    },
+    pauseFlick: function() {
+        display();
+        clearInterval(this.intervalArray[0]);
+        document.getElementById("play-pause").innerHTML = "&#x23F5;";
     }
 }
 document.getElementById("first").addEventListener("click", function(){game.firstMove();});
@@ -100,9 +104,11 @@ document.getElementById("play-pause").addEventListener("click", function(){
 document.addEventListener("keydown", function(e){
     if (e.key == 'ArrowRight') {
         game.nextMove();
+        flick.pauseFlick();
     }
     if (e.key == 'ArrowLeft') {
         game.prevMove();
+        flick.pauseFlick();
     }
     if (e.key == ' ') {
         flick.toggleFlick();
