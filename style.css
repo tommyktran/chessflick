@@ -15,6 +15,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 500px;
 }
 header {
     margin: 0 auto;
@@ -41,6 +42,29 @@ header {
     font-size: 16px;
     margin-top: -10px;
 }
+.game-title {
+    margin: -5px 0 10px;
+    font-size: 30px;
+}
+#move-list {
+    counter-reset: LIST-ITEMS;
+    padding: 0;
+    line-height: 1.4;
+    font-size: 18px;
+}
+#move-list li {
+    display: inline;
+    padding-right: 0.6em;
+}
+#move-list li:before{
+    content: counter( LIST-ITEMS ) ".";
+    counter-increment: LIST-ITEMS;
+    padding-right: 0.25em;
+}
+#game-result:before {
+    display: none;
+}
+
 header nav {
     list-style-type: none;
     display: flex;

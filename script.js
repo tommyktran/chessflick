@@ -70,11 +70,45 @@ function display() {
 function loadGame(pgn) {
     chess.load_pgn(pgn.join('\n'));
     board1 = Chessboard('board1', 'start');
-    game.lastfen = chess.fen();
 
+    document.getElementById("white-player").innerHTML = chess.header()["White"];
+    document.getElementById("black-player").innerHTML = chess.header()["Black"];
+
+    game.lastfen = chess.fen();
     game.moves = chess.history();
     game.maxmoves = game.moves.length;
+
+    //Update move list
+    loadMoveList(chess.header()["Result"]);
+
     chess.reset();
+}
+
+function loadMoveList(result = "none") {
+    for (let x = 0; x < game.maxmoves; x+=2) {
+        var node = document.createElement("LI");
+        if (typeof game.moves[x+1] != "undefined") {
+            var textnode = document.createTextNode(game.moves[x] + " " + game.moves[x+1]);
+        } else {
+            var textnode = document.createTextNode(game.moves[x]);
+        }
+        node.appendChild(textnode);
+        document.getElementById("move-list").appendChild(node);
+    }
+    if (result != "none") {
+        var node1 = document.createElement("LI");
+        var textnode1 = document.createTextNode(result);
+        node1.appendChild(textnode1);
+        document.getElementById("move-list").appendChild(node1);
+        node1.id = "game-result";
+    }
+}
+
+function clearGame() {
+    chess.reset();
+    document.getElementById("white-player").innerHTML = "?";
+    document.getElementById("black-player").innerHTML = "?";
+    display();
 }
 
 loadGame(game.pgn);
