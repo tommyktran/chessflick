@@ -121,6 +121,7 @@ document.addEventListener("keydown", function(e){
     }
     if (e.key == ' ') {
         e.preventDefault();
+        game.moveBold();
         flick.toggleFlick();
     }
 });
