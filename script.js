@@ -120,8 +120,7 @@ document.addEventListener("keydown", function(e){
         flick.pauseFlick();
     }
     if (e.key == ' ') {
-        $("#play-pause").trigger("focus");
-        game.moveBold();
+        e.preventDefault();
         flick.toggleFlick();
     }
 });
@@ -163,6 +162,7 @@ function loadMoveList(result = "none") {
 
         // Go to move on click
         node.onclick = function() {
+            flick.pauseFlick();
             chess.reset();
             for (let y = 0; y <= x; y++) {
                 chess.move(game.moves[y]);
