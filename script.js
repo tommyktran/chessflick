@@ -6,7 +6,7 @@ const chess = new Chess()
 
 var game = {
     moves: [],
-    movenumber: 0,
+    movenumber: -1,
     maxmoves: 0,
     pgn: [
         '[Event "Casual Game"]',
@@ -30,23 +30,26 @@ var game = {
     ],
 
     firstMove: function() {
-        this.movenumber = 0;
+        this.movenumber = -1;
         chess.reset();
         display();
     },
     prevMove: function() {
-        if (this.movenumber > 0) {
+        if (this.movenumber > -1) {
+            console.log("hi");
             this.movenumber--;
         };
         chess.undo();
         display();
     },
     nextMove: function() {
-        chess.move(this.moves[this.movenumber]);
-        display();
-        if (this.movenumber < this.maxmoves) {
+        if (this.movenumber == -1) {
+            this.movenumber = 0;
+        } else if (this.movenumber < this.maxmoves) {
             this.movenumber++;
         }
+        chess.move(this.moves[this.movenumber]);
+        display();
     },
     lastMove: function() {
         this.movenumber = this.maxmoves;
@@ -57,7 +60,9 @@ var game = {
     moveBold: function() {
         var myList = document.getElementById('move-list'); 
         var myListItems = myList.getElementsByTagName('button');
-        if (game.movenumber < game.maxmoves) {  
+        if (game.movenumber == -1) {
+            $("#play-pause").trigger("focus");
+        } else if (game.movenumber < game.maxmoves+1) {  
             $("#"+myListItems[game.movenumber].id).trigger("focus");
         } else {
             $("#"+myListItems[game.movenumber-1].id).trigger("focus");
@@ -76,7 +81,9 @@ var flick = {
             this.flickOn = false;
             document.getElementById("play-pause").innerHTML = "&#x23F5;";
         }
-        flick.playFlick();
+        if (game.movenumber !== game.maxmoves) {
+            flick.playFlick();
+        }
     },
     playFlick: function() {
         if (flick.flickOn == true) {
@@ -118,6 +125,7 @@ document.addEventListener("keydown", function(e){
 
 
 function display() {
+    console.log(game.movenumber);
     board1.position(chess.fen());
     game.moveBold();
 }
@@ -130,7 +138,7 @@ function loadGame(pgn) {
     document.getElementById("black-player").innerHTML = chess.header()["Black"];
 
     game.moves = chess.history();
-    game.maxmoves = game.moves.length;
+    game.maxmoves = game.moves.length-1;
 
     //Update move list
     loadMoveList(chess.header()["Result"]);
@@ -139,7 +147,7 @@ function loadGame(pgn) {
 }
 
 function loadMoveList(result = "none") {
-    for (let x = 0; x < game.maxmoves; x++) {
+    for (let x = 0; x < game.maxmoves+1; x++) {
         var node = document.createElement("button");
         if (x%2 == 0) {
             var textnode = document.createTextNode((x/2+1) + ". " + game.moves[x]);
