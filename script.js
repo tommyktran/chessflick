@@ -86,9 +86,10 @@ var flick = {
         }
     },
     playFlick: function() {
-        if (flick.flickOn == true) {
+        if (flick.flickOn == true && game.movenumber !== game.maxmoves) {
             flick.intervalArray[0] = window.setTimeout(function() {
                 game.nextMove();
+                display();
                 flick.playFlick();
             }, flick.flickSpeed)
         } else {
@@ -98,6 +99,7 @@ var flick = {
     pauseFlick: function() {
         display();
         clearInterval(this.intervalArray[0]);
+        flick.flickOn = false;
         document.getElementById("play-pause").innerHTML = "&#x23F5;";
     }
 }
@@ -118,6 +120,8 @@ document.addEventListener("keydown", function(e){
         flick.pauseFlick();
     }
     if (e.key == ' ') {
+        $("#play-pause").trigger("focus");
+        game.moveBold();
         flick.toggleFlick();
     }
 });
@@ -160,7 +164,7 @@ function loadMoveList(result = "none") {
         // Go to move on click
         node.onclick = function() {
             chess.reset();
-            for (let y = 0; y < x; y++) {
+            for (let y = 0; y <= x; y++) {
                 chess.move(game.moves[y]);
             }
             game.movenumber = x;
