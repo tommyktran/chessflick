@@ -4,7 +4,7 @@ config = {
     position: 'start',
     showErrors: 'console',
     orientation: 'white',
-    player: 'Varuzhan Akobian',
+    player: 'Varuzhan Eduardovich Akobian',
     viewFromPlayer: true,
     viewFromWinner: true
 }
@@ -39,6 +39,10 @@ var game = {
     gamenumber: 0,
 
     firstMove: function() {
+        if (this.movenumber == -1) {
+            game.prevGame();
+            return;
+        }
         this.movenumber = -1;
         chess.reset();
         display();
@@ -46,7 +50,10 @@ var game = {
     prevMove: function() {
         if (this.movenumber > -1) {
             this.movenumber--;
-        };
+        } else if (this.movenumber == -1) {
+            game.prevGame();
+            return;
+        }
         chess.undo();
         display();
     },
@@ -66,8 +73,12 @@ var game = {
         
     },
     lastMove: function() {
+        if (this.movenumber == this.maxmoves) {
+            game.nextGame();
+            return;
+        }
         this.movenumber = this.maxmoves;
-        chess.load_pgn(game.pgn[0].join('\n'));
+        chess.load_pgn(game.pgn[0].join('\n'), {sloppy: true});
         display();
     },
 
@@ -75,7 +86,15 @@ var game = {
         if (game.gamenumber == game.pgn.length-1) {
             game.gamenumber = 0;
         } else {
-            game.gamenumber ++;
+            game.gamenumber++;
+        }
+        loadGame(game.pgn[game.gamenumber]);
+    },
+    prevGame: function() {
+        if (game.gamenumber == 0) {
+            game.gamenumber = 0;
+        } else {
+            game.gamenumber--;
         }
         loadGame(game.pgn[game.gamenumber]);
     },
@@ -108,7 +127,7 @@ var flick = {
         }
     },
     playFlick: function() {
-        if (flick.flickOn == true && game.movenumber !== game.maxmoves) {
+        if (flick.flickOn == true) {
             flick.intervalArray[0] = window.setTimeout(function() {
                 game.nextMove();
                 display();
@@ -178,7 +197,8 @@ function display() {
 
 function loadGame(pgn) {
     console.log(pgn);
-    chess.load_pgn(pgn.join("\n"));
+    chess.load_pgn(pgn.join("\n"), {sloppy: true});
+    console.log(chess.history());
     if (config.viewFromPlayer == true) {
         if (chess.header()["Black"] == config.player) {
             config.orientation = 'black'
