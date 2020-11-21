@@ -125,7 +125,12 @@ a {
     margin: 0 auto 20px;
     display: block;
 }
-
+#game-counter {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    font-size: 17px;
+}
 
 .clearfix::after {
     content: "";

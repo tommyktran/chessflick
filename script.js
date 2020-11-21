@@ -144,6 +144,7 @@ var flick = {
         document.getElementById("play-pause").innerHTML = "&#x23F5;";
     }
 }
+
 document.getElementById("import").addEventListener("click", function(){document.getElementById("import-modal").style="display:block;"});
 document.getElementById("import-button").addEventListener("click", function(){
     game.pgn = (document.getElementById("import-box").value.split("\n\n\n"));
@@ -152,6 +153,7 @@ document.getElementById("import-button").addEventListener("click", function(){
     }
     game.gamenumber = 0;
     loadGame(game.pgn[0]);
+    updateGameNumber();
 });
 document.getElementById("import-file-button").addEventListener("click", function(){
     let selectedfile = document.getElementById("importFile").files[0];
@@ -159,14 +161,7 @@ document.getElementById("import-file-button").addEventListener("click", function
     fr.onload=function(){
         document.getElementById("import-box").innerHTML = fr.result;
     }
-    fr.readAsText(selectedfile); 
-    
-    game.pgn = (document.getElementById("import-box").value.split("\n\n\n"));
-    for (x in game.pgn) {
-        game.pgn[x] = game.pgn[x].split("\n");
-    }
-    game.gamenumber = 0;
-    loadGame(game.pgn[0]);
+    fr.readAsText(selectedfile);
 });
 
 document.getElementById("exit-modal").addEventListener("click", function(){document.getElementById("import-modal").style="display:none;"});
@@ -202,7 +197,10 @@ document.addEventListener("keydown", function(e){
     }
 });
 
-
+function updateGameNumber() {
+    document.getElementById("current-game-number").innerHTML = game.gamenumber + 1;
+    document.getElementById("max-game-number").innerHTML = game.pgn.length;
+}
 
 function display() {
     board1.position(chess.fen());
@@ -235,6 +233,7 @@ function loadGame(pgn) {
     loadMoveList(chess.header()["Result"]);
 
     chess.reset();
+    updateGameNumber();
 }
 
 function removeAllChildNodes(parent) {
