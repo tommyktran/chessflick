@@ -2,7 +2,11 @@ config = {
     showNotation: false,
     movespeed: 'fast',
     position: 'start',
-    showErrors: 'console'
+    showErrors: 'console',
+    orientation: 'white',
+    player: 'Varuzhan Akobian',
+    viewFromPlayer: true,
+    viewFromWinner: true
 }
 var board1 = Chessboard('board1', config);
 
@@ -73,7 +77,6 @@ var game = {
         } else {
             game.gamenumber ++;
         }
-        console.log(game.pgn[game.gamenumber])
         loadGame(game.pgn[game.gamenumber]);
     },
     moveBold: function() {
@@ -176,6 +179,17 @@ function display() {
 function loadGame(pgn) {
     console.log(pgn);
     chess.load_pgn(pgn.join("\n"));
+    if (config.viewFromPlayer == true) {
+        if (chess.header()["Black"] == config.player) {
+            config.orientation = 'black'
+        }
+    } else if (config.viewFromWinner == true){
+        if (chess.header()["Result"] == '0-1') {
+            config.orientation = 'black'
+        }
+    } else {
+        config.orientation = 'white'
+    }
     board1 = Chessboard('board1', config);
 
     document.getElementById("white-player").innerHTML = chess.header()["White"];
