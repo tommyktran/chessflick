@@ -130,6 +130,7 @@ a {
     bottom: 5px;
     right: 5px;
     font-size: 17px;
+    background-color: white;
 }
 
 .clearfix::after {
@@ -148,5 +149,31 @@ a {
     }
     #move-list {
         max-height: 200px;
+    }
+}
+@media (max-height: 600px) {
+    .website-subtitle {
+        display: none;
+    }
+    .game-title {
+        font-size: 20px;
+    }
+    .website-title {
+        font-size: 20px;
+        margin: 5px;
+    }
+    .wrapper {
+        max-height: 90%;
+    }
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav {
+        margin: 0;
+    }
+    body {
+        padding: 0;
     }
 }
