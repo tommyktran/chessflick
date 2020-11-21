@@ -96,6 +96,32 @@ a {
     width: 400px;
     display: flex;
 }
+#import-modal {
+    display: none;
+    position: absolute;
+    max-width: 500px;
+    max-height: 500px;
+    width: 80%;
+    height: 80%;
+    
+    padding: 10px;
+    background-color: lightgray;
+    z-index: 100;
+
+    top: 15%;
+}
+#import-modal textarea {
+    width: 80%;
+    height: 80%;
+}
+#import-modal p {
+    text-align: right;
+}
+#import-modal button {
+    margin: 0 auto;
+    display: block;
+}
+
 
 .clearfix::after {
     content: "";

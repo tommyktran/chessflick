@@ -102,6 +102,10 @@ var flick = {
         document.getElementById("play-pause").innerHTML = "&#x23F5;";
     }
 }
+document.getElementById("import").addEventListener("click", function(){document.getElementById("import-modal").style="display:block;"});
+
+document.getElementById("exit-modal").addEventListener("click", function(){document.getElementById("import-modal").style="display:none;"});
+
 document.getElementById("first").addEventListener("click", function(){game.firstMove();});
 document.getElementById("previous").addEventListener("click", function(){game.prevMove();});
 document.getElementById("next").addEventListener("click", function(){game.nextMove();});
