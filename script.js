@@ -36,7 +36,6 @@ var game = {
     },
     prevMove: function() {
         if (this.movenumber > -1) {
-            console.log("hi");
             this.movenumber--;
         };
         chess.undo();
@@ -129,7 +128,6 @@ document.addEventListener("keydown", function(e){
 
 
 function display() {
-    console.log(game.movenumber);
     board1.position(chess.fen());
     game.moveBold();
 }
