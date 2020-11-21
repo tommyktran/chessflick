@@ -172,6 +172,7 @@ a {
     }
     header nav {
         margin: 0;
+        align-items: center;
     }
     body {
         padding: 0;

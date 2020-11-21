@@ -4,7 +4,7 @@ config = {
     position: 'start',
     showErrors: 'console',
     orientation: 'white',
-    player: 'Varuzhan Eduardovich Akobian',
+    player: 'Mihai Suba',
     viewFromPlayer: true,
     viewFromWinner: true
 }
