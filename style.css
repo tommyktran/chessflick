@@ -116,13 +116,13 @@ a {
 }
 #import-modal textarea {
     width: 80%;
-    height: 80%;
+    height: 60%;
 }
 #import-modal p {
     text-align: right;
 }
 #import-modal button {
-    margin: 0 auto;
+    margin: 0 auto 20px;
     display: block;
 }
 

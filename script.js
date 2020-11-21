@@ -147,7 +147,21 @@ var flick = {
 document.getElementById("import").addEventListener("click", function(){document.getElementById("import-modal").style="display:block;"});
 document.getElementById("import-button").addEventListener("click", function(){
     game.pgn = (document.getElementById("import-box").value.split("\n\n\n"));
-    console.log(game.pgn);
+    for (x in game.pgn) {
+        game.pgn[x] = game.pgn[x].split("\n");
+    }
+    game.gamenumber = 0;
+    loadGame(game.pgn[0]);
+});
+document.getElementById("import-file-button").addEventListener("click", function(){
+    let selectedfile = document.getElementById("importFile").files[0];
+    var fr=new FileReader(); 
+    fr.onload=function(){
+        document.getElementById("import-box").innerHTML = fr.result;
+    }
+    fr.readAsText(selectedfile); 
+    
+    game.pgn = (document.getElementById("import-box").value.split("\n\n\n"));
     for (x in game.pgn) {
         game.pgn[x] = game.pgn[x].split("\n");
     }
@@ -196,9 +210,7 @@ function display() {
 }
 
 function loadGame(pgn) {
-    console.log(pgn);
     chess.load_pgn(pgn.join("\n"), {sloppy: true});
-    console.log(chess.history());
     if (config.viewFromPlayer == true) {
         if (chess.header()["Black"] == config.player) {
             config.orientation = 'black'
