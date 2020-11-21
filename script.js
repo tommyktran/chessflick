@@ -32,6 +32,7 @@ var game = {
         'Rg8 19.Rad1 Qxf3 20.Rxe7+ Nxe7 21.Qxd7+ Kxd7 22.Bf5+ Ke8',
         '23.Bd7+ Kf8 24.Bxe7# 1-0'
     ],
+    pgnBatch: [],
 
     firstMove: function() {
         this.movenumber = -1;
@@ -53,6 +54,10 @@ var game = {
         }
         chess.move(this.moves[this.movenumber]);
         display();
+
+        if (this.movenumber == this.maxmoves) {
+            game.nextGame();
+        }
     },
     lastMove: function() {
         this.movenumber = this.maxmoves;
@@ -60,6 +65,12 @@ var game = {
         display();
     },
 
+    nextGame: function() {
+        if (game.pgn.length == 0) {
+            game.pgn = game.pgnBatch;
+        }
+        loadBatch();
+    },
     moveBold: function() {
         var myList = document.getElementById('move-list'); 
         var myListItems = myList.getElementsByTagName('button');
@@ -108,11 +119,12 @@ var flick = {
 }
 document.getElementById("import").addEventListener("click", function(){document.getElementById("import-modal").style="display:block;"});
 document.getElementById("import-button").addEventListener("click", function(){
-    console.log(document.getElementById("import-box").value)
-    game.pgn = (document.getElementById("import-box").value.split("\n"));
-    console.log(game.pgn);
-    loadGame(game.pgn);
-    
+    game.pgn = (document.getElementById("import-box").value.split("\n\n\n"));
+    for (x in game.pgn) {
+        game.pgn[x] = game.pgn[x].split("\n");
+    }
+    game.pgnBatch = game.pgn;
+    loadBatch();
 });
 
 document.getElementById("exit-modal").addEventListener("click", function(){document.getElementById("import-modal").style="display:none;"});
@@ -156,7 +168,7 @@ function display() {
 }
 
 function loadGame(pgn) {
-    chess.load_pgn(pgn.join('\n'));
+    chess.load_pgn(pgn.join("\n"));
     board1 = Chessboard('board1', config);
 
     document.getElementById("white-player").innerHTML = chess.header()["White"];
@@ -169,6 +181,10 @@ function loadGame(pgn) {
     loadMoveList(chess.header()["Result"]);
 
     chess.reset();
+}
+function loadBatch() {
+    loadGame(game.pgn[0]);
+    game.pgn.shift();
 }
 
 function removeAllChildNodes(parent) {
