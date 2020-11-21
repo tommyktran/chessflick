@@ -1,7 +1,11 @@
-var board1 = Chessboard('board1', {
+config = {
+    showNotation: false,
     movespeed: 'fast',
-    position: 'start'
-});
+    position: 'start',
+    showErrors: 'console'
+}
+var board1 = Chessboard('board1', config);
+
 const chess = new Chess()
 
 var game = {
@@ -103,6 +107,13 @@ var flick = {
     }
 }
 document.getElementById("import").addEventListener("click", function(){document.getElementById("import-modal").style="display:block;"});
+document.getElementById("import-button").addEventListener("click", function(){
+    console.log(document.getElementById("import-box").value)
+    game.pgn = (document.getElementById("import-box").value.split("\n"));
+    console.log(game.pgn);
+    loadGame(game.pgn);
+    
+});
 
 document.getElementById("exit-modal").addEventListener("click", function(){document.getElementById("import-modal").style="display:none;"});
 
@@ -146,7 +157,7 @@ function display() {
 
 function loadGame(pgn) {
     chess.load_pgn(pgn.join('\n'));
-    board1 = Chessboard('board1', 'start');
+    board1 = Chessboard('board1', config);
 
     document.getElementById("white-player").innerHTML = chess.header()["White"];
     document.getElementById("black-player").innerHTML = chess.header()["Black"];
@@ -160,7 +171,14 @@ function loadGame(pgn) {
     chess.reset();
 }
 
+function removeAllChildNodes(parent) {
+    while (parent.firstChild) {
+        parent.removeChild(parent.firstChild);
+    }
+}
+
 function loadMoveList(result = "none") {
+    removeAllChildNodes(document.getElementById("move-list"));
     for (let x = 0; x < game.maxmoves+1; x++) {
         var node = document.createElement("button");
         if (x%2 == 0) {

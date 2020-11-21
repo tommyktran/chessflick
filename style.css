@@ -17,6 +17,7 @@ body {
     flex-direction: column;
     align-items: center;
     max-width: 500px;
+    max-height: 80%;
 }
 header {
     margin: 0 auto;
@@ -52,6 +53,9 @@ header {
 #move-list {
     line-height: 1.5;
     font-size: 18px;
+    max-height: 175px;
+    overflow-y: auto;
+    height: 100%;
 }
 #move-list button {
     border: none;
