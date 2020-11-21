@@ -127,6 +127,14 @@ document.addEventListener("keydown", function(e){
         game.moveBold();
         flick.toggleFlick();
     }
+    if (e.key == 'ArrowUp') {
+        game.firstMove();
+        flick.pauseFlick();
+    }
+    if (e.key == 'ArrowDown') {
+        game.lastMove();
+        flick.pauseFlick();
+    }
 });
 
 
