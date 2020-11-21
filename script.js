@@ -191,3 +191,4 @@ function clearGame() {
 }
 
 loadGame(game.pgn);
+board1.resize();
