@@ -78,7 +78,7 @@ var game = {
             return;
         }
         this.movenumber = this.maxmoves;
-        chess.load_pgn(game.pgn[0].join('\n'), {sloppy: true});
+        chess.load_pgn(game.pgn[game.gamenumber].join('\n'), {sloppy: true});
         display();
     },
 
