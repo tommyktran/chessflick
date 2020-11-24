@@ -1,0 +1,492 @@
+[Event "Wch U20"]
+[Site "Yerevan"]
+[Date "1999.09.18"]
+[EventDate "?"]
+[Round "1"]
+[Result "1-0"]
+[White "Varuzhan Eduardovich Akobian"]
+[Black "Serkan Kose"]
+[ECO "D35"]
+[WhiteElo "2387"]
+[BlackElo "?"]
+[PlyCount "117"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. cxd5 exd5 5. Bg5 Be7 6. e3 O-O
+7. Bd3 c6 8. Qc2 h6 9. Bh4 Re8 10. Nge2 Nbd7 11. f3 b5 12. O-O
+Bb7 13. Kh1 b4 14. Na4 Rc8 15. Bf5 g5 16. Bf2 c5 17. Nxc5 Bxc5
+18. dxc5 Rxc5 19. Qd2 a5 20. Rac1 Qe7 21. Rxc5 Qxc5 22. Nd4
+Ne5 23. Rc1 Qe7 24. b3 Ba6 25. Qc2 Nfd7 26. Qd2 Nc5 27. Bg1
+Ne6 28. h3 Rc8 29. Rxc8+ Bxc8 30. Qc2 Bd7 31. Bxe6 Bxe6
+32. Bh2 Bd7 33. Qc7 Nd3 34. Bg1 h5 35. Qxa5 g4 36. Qxd5 gxh3
+37. Qxh5 hxg2+ 38. Kxg2 Ne5 39. Bh2 Ng6 40. Kf2 Qd8 41. Qd5
+Qc8 42. Qd6 Be6 43. Qb8 Qxb8 44. Bxb8 Bd7 45. Bd6 f6 46. Bxb4
+Ne5 47. Ke2 Kf7 48. Bd6 Nc6 49. Kd3 Na5 50. Kc3 Bh3 51. a4 Ke8
+52. b4 Nb7 53. Bg3 Kd7 54. b5 Nc5 55. a5 Bf1 56. a6 Kc8
+57. Kb4 Nxa6+ 58. bxa6 Bxa6 59. Bh4 1-0
+
+
+[Event "Abu Dhabi Masters op"]
+[Site "Abu Dhabi"]
+[Date "2000.08.26"]
+[EventDate "?"]
+[Round "1"]
+[Result "1-0"]
+[White "Varuzhan Eduardovich Akobian"]
+[Black "Alrais Adnan"]
+[ECO "D35"]
+[WhiteElo "2438"]
+[BlackElo "2142"]
+[PlyCount "62"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. cxd5 exd5 5. Bg5 Be7 6. e3
+Nbd7 7. Bd3 O-O 8. Nge2 Re8 9. O-O Nf8 10. b4 c6 11. b5 Ne6
+12. Bh4 g6 13. bxc6 bxc6 14. Rb1 Ng7 15. Qa4 Bd7 16. Bxf6 Bxf6
+17. Rb7 Bc8 18. Rxa7 Rxa7 19. Qxa7 Qd6 20. Rb1 Bd8 21. Qc5 Qf6
+22. Nxd5 Qe6 23. Nef4 Qd7 24. Nb6 Bxb6 25. Rxb6 Bb7 26. Qb4
+Ba8 27. Rb8 Ne6 28. Nxe6 Qxe6 29. a4 Kg7 30. Rxe8 Qxe8 31. a5
+Qe6 1-0
+
+
+[Event "World op 30th"]
+[Site "Philadelphia"]
+[Date "2002.07.03"]
+[EventDate "?"]
+[Round "5"]
+[Result "1-0"]
+[White "Varuzhan Eduardovich Akobian"]
+[Black "Oleg Kaminsky"]
+[ECO "D35"]
+[WhiteElo "2480"]
+[BlackElo "2340"]
+[PlyCount "105"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. cxd5 exd5 5. Bg5 Nbd7 6. e3
+Be7 7. Bd3 c6 8. Nge2 Nf8 9. Qc2 Bg4 10. Ng3 Nh5 11. Bf4 Nxg3
+12. Bxg3 Bh5 13. O-O Bg6 14. Rab1 Bd6 15. b4 Bxg3 16. hxg3 a6
+17. Na4 Rc8 18. e4 dxe4 19. Bxe4 Ne6 20. Nc5 Nxc5 21. bxc5 Rc7
+22. Bxg6 hxg6 23. Rfe1+ Kf8 24. Re5 g5 25. Rbe1 g6 26. Qc3 f6
+27. Re6 Kg7 28. Rd6 Rd7 29. Ree6 Rf8 30. d5 cxd5 31. Qd4 Rxd6
+32. cxd6 Rf7 33. Qxd5 Qd7 34. Re1 Qd8 35. Rb1 Qc8 36. Re1 Qd8
+37. Re3 Rd7 38. Re6 Rf7 39. Qe4 Qd7 40. a3 b5 41. Qd5 a5
+42. Re1 b4 43. Qxa5 bxa3 44. Qxa3 Qc6 45. Rd1 Rd7 46. Qe3 Qc4
+47. Qe8 Qf7 48. Qe3 Qc4 49. Rd4 Qa2 50. Re4 Rxd6 51. Re7+ Kh6
+52. g4 Qb1+ 53. Kh2 1-0
+
+
+[Event "American Continental Championship"]
+[Site "Buenos Aires ARG"]
+[Date "2005.08.07"]
+[EventDate "2005.08.06"]
+[Round "2"]
+[Result "1-0"]
+[White "Varuzhan Eduardovich Akobian"]
+[Black "Marco Zapata Ferrada"]
+[ECO "D37"]
+[WhiteElo "2558"]
+[BlackElo "2353"]
+[PlyCount "127"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Be7 4. Nf3 Nf6 5. Bf4 O-O 6. Rc1 c5
+7. dxc5 Bxc5 8. cxd5 exd5 9. e3 Nc6 10. Be2 Be6 11. a3 Rc8
+12. O-O a6 13. Na4 Bd6 14. Bxd6 Qxd6 15. Nc5 Ne5 16. Qd4 Nxf3+
+17. Bxf3 Qb6 18. b4 Rc6 19. Rfd1 Qc7 20. g4 Bxg4 21. Bxg4 Nxg4
+22. Qxg4 Rg6 23. Qxg6 hxg6 24. Ne6 Qxc1 25. Rxc1 fxe6 26. Kg2
+g5 27. Kg3 Rf7 28. Rc8+ Kh7 29. Re8 Rd7 30. Rxe6 d4 31. exd4
+Rxd4 32. f3 a5 33. Re4 Rd5 34. a4 axb4 35. Rxb4 Ra5 36. Kg4
+Kh6 37. Rb6+ g6 38. Rb4 Rf5 39. Kg3 Ra5 40. Kg4 Rf5 41. Kg3
+Ra5 42. Kf2 b6 43. h4 gxh4 44. Rxh4+ Rh5 45. Rb4 Rh2+ 46. Ke3
+Ra2 47. Ke4 Kg5 48. f4+ Kg4 49. Kd5 Rf2 50. Rxb6 Kxf4 51. Rxg6
+Kf5 52. Ra6 Rh2 53. Kc5 Rh1 54. Rb6 Ra1 55. Kb5 Ke5 56. a5 Kd5
+57. Rh6 Rb1+ 58. Ka6 Ra1 59. Kb6 Rb1+ 60. Kc7 Rc1+ 61. Kb7
+Rb1+ 62. Kc7 Rc1+ 63. Kd7 Kc5 64. Rc6+ 1-0
+
+
+[Event "Carlos Torre mem op 18th"]
+[Site "Merida"]
+[Date "2005.12.15"]
+[EventDate "?"]
+[Round "1"]
+[Result "1-0"]
+[White "Varuzhan Eduardovich Akobian"]
+[Black "Jose Rober de los Santos Coello"]
+[ECO "D37"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "67"]
+
+1.d4 d5 2.c4 e6 3.Nf3 Nf6 4.Nc3 Be7 5.Bf4 c6 6.e3 O-O 7.h3
+Nbd7 8.c5 Ne4 9.Rc1 f5 10.Bd3 Ndf6 11.O-O Kh8 12.Ne5 Bd7
+13.Ne2 Nh5 14.Bh2 Be8 15.f3 Ng5 16.Qc2 g6 17.b4 Nf7 18.a4 Bg5
+19.Qd2 Bf6 20.b5 Nxe5 21.Bxe5 Bxe5 22.dxe5 Bd7 23.f4 Ng7
+24.Nd4 Qc7 25.Rc2 Rfc8 26.Rb1 Rab8 27.b6 axb6 28.Rxb6 Ra8
+29.Qb4 Ra7 30.Rb2 Rca8 31.Rxb7 Rxb7 32.Qxb7 Qa5 33.Kh2 Be8
+34.Qe7 1-0
+
+
+[Event "37th Chess Olympiad"]
+[Site "Turin ITA"]
+[Date "2006.05.23"]
+[EventDate "2006.05.21"]
+[Round "3"]
+[Result "1-0"]
+[White "Varuzhan Eduardovich Akobian"]
+[Black "Oliver Dimakiling"]
+[ECO "D30"]
+[WhiteElo "2575"]
+[BlackElo "2452"]
+[PlyCount "75"]
+
+1. d4 e6 2. c4 d5 3. Nf3 Bb4+ 4. Bd2 a5 5. e3 Be7 6. Nc3 Nf6
+7. Bd3 O-O 8. Qc2 Na6 9. a3 c5 10. O-O b6 11. cxd5 exd5
+12. Ne5 Bb7 13. f4 Nc7 14. Bf5 Qd6 15. Rad1 Ba6 16. Rf3 Ne6
+17. Be1 cxd4 18. exd4 b5 19. Bh4 h6 20. Qb3 Nc7 21. Bb1 b4
+22. axb4 axb4 23. Bxf6 Bxf6 24. Qc2 Rfd8 25. Qh7+ Kf8 26. Re1
+Ne6 27. f5 Bc8 28. fxe6 Bxe6 29. Ne2 Bxe5 30. dxe5 Qxe5
+31. Rff1 Ke7 32. Nf4 Qd4+ 33. Kh1 Ra6 34. Nh5 Qxb2 35. Nxg7
+Kd6 36. Nxe6 fxe6 37. Rxe6+ Kxe6 38. Qg6+ 1-0
+
+
+[Event "Santo Domingo op"]
+[Site "Santo Domingo"]
+[Date "2006.11.03"]
+[EventDate "?"]
+[Round "6"]
+[Result "1-0"]
+[White "Varuzhan Eduardovich Akobian"]
+[Black "Mikhail Belorusov"]
+[ECO "D39"]
+[WhiteElo "2598"]
+[BlackElo "2315"]
+[PlyCount "89"]
+
+1. d4 d5 2. c4 e6 3. Nf3 Nf6 4. Nc3 dxc4 5. Qa4+ Nbd7 6. Bg5
+c6 7. Qxc4 Qb6 8. Rb1 Nd5 9. a3 N7f6 10. Bxf6 Nxc3 11. Qxc3
+gxf6 12. e3 Bd6 13. Be2 Bd7 14. Nd2 Qc7 15. Ne4 Be7 16. b4 Rg8
+17. Bf3 f5 18. Nc5 a6 19. a4 Bxc5 20. Qxc5 b6 21. Qc3 Ra7
+22. O-O Ke7 23. Rfc1 Rc8 24. a5 Rb7 25. Be2 b5 26. Qd2 Rg8
+27. Rc5 Qd6 28. Rbc1 Rc7 29. Bf3 f6 30. Qc3 Rgc8 31. g3 Be8
+32. Qc2 Kd8 33. e4 fxe4 34. Bxe4 f5 35. Bf3 Bd7 36. Qc3 Be8
+37. Qe3 Re7 38. Qg5 Rcc7 39. Qg8 Kd7 40. Qh8 Rc8 41. Bxc6+
+Rxc6 42. Rxc6 Qxc6 43. Rxc6 Kxc6 44. Qe5 Kb7 45. d5 1-0
+
+
+[Event "Morelia Open"]
+[Site "Morelia MEX"]
+[Date "2007.02.17"]
+[EventDate "2007.02.15"]
+[Round "5"]
+[Result "1-0"]
+[White "Varuzhan Eduardovich Akobian"]
+[Black "Dayron Huertas Carballo"]
+[ECO "D36"]
+[WhiteElo "2600"]
+[BlackElo "2338"]
+[PlyCount "79"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 d5 4. cxd5 exd5 5. Bg5 c6 6. Qc2 Bd6
+7. e3 O-O 8. Bd3 h6 9. Bh4 Nbd7 10. Nge2 Re8 11. O-O-O Qa5
+12. Kb1 b5 13. Rc1 Ba6 14. Rhd1 b4 15. Na4 Bxd3 16. Rxd3 Qb5
+17. Rdd1 Rac8 18. Bxf6 Nxf6 19. Nc5 Bxc5 20. dxc5 Nd7 21. Nd4
+Qb8 22. g3 a5 23. Nf5 Rc7 24. Qd3 Ra7 25. Qd4 Re5 26. Qg4 g6
+27. Nd4 Qa8 28. Qf4 Kg7 29. g4 Ra6 30. h4 Qd8 31. h5 Qf6
+32. Qg3 Ra8 33. hxg6 fxg6 34. f4 Re7 35. Rh1 Rh8 36. Rxh6 Rxh6
+37. g5 Qf8 38. gxh6+ Kxh6 39. Qh3+ Kg7 40. Nxc6 1-0
+
+
+[Event "SPICE Cup"]
+[Site "Lubbock USA"]
+[Date "2008.09.19"]
+[EventDate "2008.09.19"]
+[Round "1"]
+[Result "1-0"]
+[White "Varuzhan Eduardovich Akobian"]
+[Black "Eugene Perelshteyn"]
+[ECO "D38"]
+[WhiteElo "2610"]
+[BlackElo "2555"]
+[PlyCount "107"]
+
+1. d4 d5 2. c4 e6 3. Nf3 Nf6 4. Nc3 Bb4 5. Qa4+ Nc6 6. e3 O-O
+7. a3 Bxc3+ 8. bxc3 Bd7 9. Qc2 Na5 10. cxd5 exd5 11. Bd3 Re8
+12. a4 Nc4 13. O-O Ne4 14. Bxc4 dxc4 15. Ne5 Nd6 16. e4 Be6
+17. Bf4 f6 18. Nf3 f5 19. Bxd6 cxd6 20. Rfe1 Qd7 21. Ng5 h6
+22. Nxe6 Qxe6 23. e5 d5 24. Reb1 Re7 25. Rb5 Rf8 26. Rab1 Rff7
+27. Qe2 f4 28. Qf3 Rd7 29. a5 g5 30. h3 Kg7 31. R1b4 Rfe7
+32. Rc5 Rd8 33. Rbb5 Red7 34. Qg4 Qxg4 35. hxg4 Kf7 36. f3 Ke6
+37. a6 Rb8 38. Kh2 Ke7 39. Rxd5 Rxd5 40. Rxd5 b5 41. Rc5 Kd7
+42. d5 Rb6 43. g3 Rxa6 44. gxf4 gxf4 45. Rxb5 Ra2+ 46. Kh3 Rf2
+47. g5 hxg5 48. Kg4 Re2 49. Rb7+ Kc8 50. Re7 a5 51. Kxg5 a4
+52. Kxf4 Kb8 53. d6 Rd2 54. Rc7 1-0
+
+
+[Event "Mindsports"]
+[Site "Beijing CHN"]
+[Date "2008.10.06"]
+[EventDate "2008.10.05"]
+[Round "7"]
+[Result "1-0"]
+[White "Varuzhan Eduardovich Akobian"]
+[Black "Bartosz Socko"]
+[ECO "D38"]
+[WhiteElo "2606"]
+[BlackElo "2631"]
+[PlyCount "153"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Bb4 5. Qa4+ Nc6 6. e3 O-O
+7. a3 Be7 8. b4 a6 9. Bb2 Re8 10. Qc2 dxc4 11. Bxc4 b5 12. Bd3
+Bb7 13. Ne4 Nd7 14. O-O h6 15. Rfd1 Bf8 16. Rac1 Rc8 17. Nfd2
+f5 18. Nc3 Nb6 19. Nb3 Qg5 20. g3 Nc4 21. Bxc4 bxc4 22. Nd2
+Ne7 23. Nxc4 Bf3 24. Ne5 Bxd1 25. Qxd1 Ng6 26. Nf3 Qd8 27. Qa4
+Ra8 28. Qb3 Kh7 29. h4 Bd6 30. Na4 Ra7 31. Nc5 Qa8 32. Nd2 Qd5
+33. Qxd5 exd5 34. Ndb3 Nf8 35. h5 Kg8 36. Na5 Ne6 37. Nxe6
+Rxe6 38. Kf1 Kf7 39. Ke2 Kf6 40. Nc6 Ra8 41. Ne5 a5 42. b5 a4
+43. Rb1 Ree8 44. Nc6 Kg5 45. Rh1 Kf6 46. Kd3 Ke6 47. Rg1 Rf8
+48. f3 Rae8 49. f4 Rf7 50. g4 fxg4 51. Rxg4 Rd7 52. Rg6+ Kf7
+53. Ne7 Be5 54. dxe5 Rdxe7 55. f5 Rxe5 56. Bxe5 Rxe5 57. Rc6
+d4 58. Rxc7+ Kf6 59. Rc6+ Kg5 60. exd4 Rxb5 61. Ke4 Rb3
+62. Rg6+ Kxh5 63. Rxg7 Rxa3 64. f6 Ra1 65. d5 Rf1 66. Ke5 Re1+
+67. Kd6 Rf1 68. Ke7 Re1+ 69. Kf8 Rd1 70. f7 Rxd5 71. Ke7 Rf5
+72. f8=Q Rxf8 73. Kxf8 Kh4 74. Kf7 h5 75. Kf6 Kh3 76. Kg5 h4
+77. Rh7 1-0
+
+
+[Event "XXI Carlos Torre KO"]
+[Site "Merida MEX"]
+[Date "2008.12.18"]
+[EventDate "?"]
+[Round "2.1"]
+[Result "1-0"]
+[White "Varuzhan Eduardovich Akobian"]
+[Black "Yury Markovich Shulman"]
+[ECO "D30"]
+[WhiteElo "2606"]
+[BlackElo "2616"]
+[PlyCount "101"]
+
+1. d4 d5 2. c4 e6 3. Nf3 c6 4. Qc2 Nf6 5. g3 dxc4 6. Qxc4 b5
+7. Qc2 Bb7 8. Bg2 Nbd7 9. a4 c5 10. O-O cxd4 11. Nxd4 Bxg2
+12. Kxg2 Rc8 13. Qd3 b4 14. Nd2 Be7 15. N2b3 O-O 16. Bd2 Nc5
+17. Nxc5 Bxc5 18. Nb3 Qxd3 19. exd3 Nd5 20. Rfc1 Be7 21. a5
+Bf6 22. d4 Rfd8 23. Kf3 Kf8 24. Ke4 Ke7 25. Rxc8 Rxc8 26. Rc1
+Rxc1 27. Nxc1 Kd7 28. Kd3 Bd8 29. Nb3 Kc6 30. Kc4 Be7 31. Nc1
+Bd8 32. Bxb4 Nxb4 33. Kxb4 Kd5 34. Kb5 Kxd4 35. b4 Kc3
+36. Na2+ Kb3 37. Ka6 Bf6 38. Kxa7 Bd4+ 39. Kb7 Bxf2 40. a6 Ka4
+41. Kc6 e5 42. b5 Ka5 43. Nc1 e4 44. Nb3+ Kb4 45. b6 Kxb3
+46. a7 e3 47. b7 e2 48. b8=Q Kc2 49. a8=Q e1=Q 50. Qa2+ Kd3
+51. Qbb1+ 1-0
+
+
+[Event "XXI Carlos Torre KO"]
+[Site "Merida MEX"]
+[Date "2008.12.18"]
+[EventDate "?"]
+[Round "2.1"]
+[Result "1-0"]
+[White "Varuzhan Eduardovich Akobian"]
+[Black "Yury Markovich Shulman"]
+[ECO "D30"]
+[WhiteElo "2606"]
+[BlackElo "2616"]
+[PlyCount "101"]
+
+1. d4 d5 2. c4 e6 3. Nf3 c6 4. Qc2 Nf6 5. g3 dxc4 6. Qxc4 b5
+7. Qc2 Bb7 8. Bg2 Nbd7 9. a4 c5 10. O-O cxd4 11. Nxd4 Bxg2
+12. Kxg2 Rc8 13. Qd3 b4 14. Nd2 Be7 15. N2b3 O-O 16. Bd2 Nc5
+17. Nxc5 Bxc5 18. Nb3 Qxd3 19. exd3 Nd5 20. Rfc1 Be7 21. a5
+Bf6 22. d4 Rfd8 23. Kf3 Kf8 24. Ke4 Ke7 25. Rxc8 Rxc8 26. Rc1
+Rxc1 27. Nxc1 Kd7 28. Kd3 Bd8 29. Nb3 Kc6 30. Kc4 Be7 31. Nc1
+Bd8 32. Bxb4 Nxb4 33. Kxb4 Kd5 34. Kb5 Kxd4 35. b4 Kc3
+36. Na2+ Kb3 37. Ka6 Bf6 38. Kxa7 Bd4+ 39. Kb7 Bxf2 40. a6 Ka4
+41. Kc6 e5 42. b5 Ka5 43. Nc1 e4 44. Nb3+ Kb4 45. b6 Kxb3
+46. a7 e3 47. b7 e2 48. b8=Q Kc2 49. a8=Q e1=Q 50. Qa2+ Kd3
+51. Qbb1+ 1-0
+
+
+[Event "National Open"]
+[Site "Las Vegas USA"]
+[Date "2009.06.05"]
+[EventDate "?"]
+[Round "2"]
+[Result "1-0"]
+[White "Varuzhan Eduardovich Akobian"]
+[Black "Jonathan Tayar"]
+[ECO "D39"]
+[WhiteElo "2612"]
+[BlackElo "2334"]
+[PlyCount "183"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 dxc4 5. e4 Bb4 6. Bg5 c5
+7. e5 cxd4 8. Nxd4 Qa5 9. exf6 Bxc3+ 10. bxc3 Qxg5 11. fxg7
+Qxg7 12. Qd2 O-O 13. Bxc4 a6 14. O-O b5 15. Bd3 Bb7 16. f3 Nd7
+17. a4 b4 18. Be2 Rfd8 19. Rfd1 Nc5 20. Qe3 bxc3 21. Qxc3 Rac8
+22. Qe3 Rd5 23. Bc4 Re5 24. Qf2 Qf6 25. Rab1 Ba8 26. a5 Kh8
+27. Rbc1 Rg8 28. Bf1 Reg5 29. Rc4 Nd7 30. Ne2 Ne5 31. Rf4 Qg7
+32. Ng3 Nc6 33. Rd7 Rf8 34. Qb6 Rxa5 35. Rc7 Rd5 36. Rxc6 Bxc6
+37. Qxc6 a5 38. Qc7 f5 39. Qb6 Qe5 40. Ra4 Rb8 41. Qa7 Rbd8
+42. f4 Qd6 43. Rxa5 Qxf4 44. Rxd5 exd5 45. Qb6 Rf8 46. Qc5 Rd8
+47. Bd3 Qe5 48. Nxf5 Ra8 49. g3 Re8 50. Kg2 Ra8 51. Kf3 Re8
+52. h4 Rd8 53. g4 Re8 54. g5 Qa1 55. Qd4+ Qxd4 56. Nxd4 Re1
+57. Nf5 Rd1 58. Be2 Ra1 59. Ke3 Ra4 60. Bf3 d4+ 61. Nxd4 Ra5
+62. Be4 Rc5 63. Kf4 Ra5 64. Nf5 Rb5 65. h5 Ra5 66. g6 hxg6
+67. hxg6 Ra6 68. Kg5 Rb6 69. Bd3 Rb7 70. Bc4 Rc7 71. Be6 Rb7
+72. Kf6 Rg7 73. Bf7 Rxg6+ 74. Bxg6 Kg8 75. Bf7+ Kh7 76. Ne7
+Kh8 77. Ng6+ Kh7 78. Be6 Kh6 79. Bg8 Kh5 80. Ne5 Kh6 81. Ng4+
+Kh5 82. Kf5 Kh4 83. Kf4 Kh3 84. Ne3 Kh4 85. Bf7 Kh3 86. Bg6
+Kh4 87. Ng2+ Kh3 88. Kf3 Kh2 89. Kf2 Kh3 90. Bf5+ Kh2 91. Ne3
+Kh1 92. Bg4 1-0
+
+
+[Event "TIM"]
+[Site "Montreal CAN"]
+[Date "2009.09.01"]
+[EventDate "?"]
+[Round "6"]
+[Result "1-0"]
+[White "Varuzhan Eduardovich Akobian"]
+[Black "Arkadij Naiditsch"]
+[ECO "D35"]
+[WhiteElo "2626"]
+[BlackElo "2697"]
+[PlyCount "31"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. cxd5 exd5 5. Nc3 c6 6. Qc2 Be7
+7. Bg5 O-O 8. e3 Ne4 9. Bf4 f5 10. Bd3 Nd7 11. h3 g6 12. g4 g5
+13. Bh2 fxg4 14. Nxe4 Rxf3 15. Nd6 Nf8 16. Bxh7+ 1-0
+
+
+[Event "World Cup"]
+[Site "Khanty-Mansiysk RUS"]
+[Date "2009.11.23"]
+[EventDate "2009.11.21"]
+[Round "1.12"]
+[Result "1-0"]
+[White "Varuzhan Eduardovich Akobian"]
+[Black "Pavel Tregubov"]
+[ECO "D30"]
+[WhiteElo "2624"]
+[BlackElo "2642"]
+[PlyCount "103"]
+
+1. d4 d5 2. c4 e6 3. Nf3 c6 4. Nbd2 Nf6 5. g3 c5 6. cxd5 exd5
+7. Bg2 Nbd7 8. dxc5 Nxc5 9. O-O Be7 10. b3 O-O 11. Bb2 Bf5
+12. Nd4 Bg6 13. Rc1 a6 14. N2f3 Be4 15. Bh3 Re8 16. Nd2 Bg6
+17. Nf5 Bf8 18. Nf3 Ne6 19. N5h4 Bh5 20. Bxf6 gxf6 21. Nf5 Bg6
+22. Qd2 Ng5 23. Nxg5 fxg5 24. Nd4 Bg7 25. e3 Qb6 26. Nf5 Rad8
+27. Nxg7 Kxg7 28. Rfd1 Be4 29. Qd4+ Qxd4 30. Rxd4 Re7 31. Bg2
+Bxg2 32. Kxg2 f5 33. Rcd1 Red7 34. g4 fxg4 35. Rxg4 Kf6
+36. Rgd4 Ke6 37. h4 gxh4 38. Rxh4 Rg8+ 39. Kf1 Rg5 40. Ke2 h5
+41. Rdh1 Rh7 42. a4 b5 43. a5 Rc7 44. Rxh5 Rxh5 45. Rxh5 Rc2+
+46. Kf3 Rb2 47. Rh6+ Ke5 48. Rxa6 Rxb3 49. Rb6 d4 50. a6 dxe3
+51. fxe3 b4 52. Rb5+ 1-0
+
+
+[Event "World Cup"]
+[Site "Khanty-Mansiysk RUS"]
+[Date "2009.11.23"]
+[EventDate "2009.11.21"]
+[Round "1.10"]
+[Result "1-0"]
+[White "Varuzhan Eduardovich Akobian"]
+[Black "Pavel Tregubov"]
+[ECO "D30"]
+[WhiteElo "2624"]
+[BlackElo "2642"]
+[PlyCount "79"]
+
+1. d4 d5 2. c4 e6 3. Nf3 c6 4. Nbd2 f5 5. g3 Nf6 6. Bg2 Bd6
+7. O-O O-O 8. Ne5 b6 9. Ndf3 Bb7 10. Bf4 Qe7 11. Rc1 Nbd7
+12. cxd5 cxd5 13. Qa4 a6 14. Nc6 Bxc6 15. Qxc6 Bxf4 16. gxf4
+Ne4 17. e3 Qd6 18. Qxd6 Nxd6 19. Rc6 Ne4 20. Rxe6 Rac8 21. Ne5
+Rf6 22. Re7 Nxe5 23. Bxe4 fxe4 24. dxe5 Rg6+ 25. Kh1 Rc2
+26. Rd7 Rxb2 27. Rxd5 Rc6 28. a4 g6 29. Kg2 Rb4 30. Rd4 Rxd4
+31. exd4 Rc4 32. d5 Rxa4 33. d6 Rd4 34. Rc1 Kf7 35. Rc7+ Ke6
+36. Re7+ Kf5 37. d7 a5 38. e6 a4 39. Re8 b5 40. e7 1-0
+
+
+[Event "World Cup"]
+[Site "Khanty-Mansiysk RUS"]
+[Date "2009.11.23"]
+[EventDate "2009.11.21"]
+[Round "1.16"]
+[Result "1-0"]
+[White "Varuzhan Eduardovich Akobian"]
+[Black "Pavel Tregubov"]
+[ECO "D30"]
+[WhiteElo "2624"]
+[BlackElo "2642"]
+[PlyCount "65"]
+
+1. d4 d5 2. c4 e6 3. Nf3 c6 4. Nbd2 Nf6 5. g3 Nbd7 6. Bg2 b6
+7. O-O Bb7 8. b3 Be7 9. Bb2 O-O 10. Rc1 Rc8 11. Qc2 c5 12. Qb1
+dxc4 13. Nxc4 b5 14. Ncd2 Qb6 15. e3 h6 16. Rfd1 Rfd8 17. a4
+a6 18. axb5 axb5 19. dxc5 Bxc5 20. Bd4 Bxd4 21. Nxd4 Bxg2
+22. Kxg2 Nc5 23. b4 Na4 24. Rxc8 Rxc8 25. Rc1 Nc3 26. Qd3 Qb7+
+27. e4 Na2 28. Qxb5 Qa8 29. Rxc8+ Qxc8 30. Qc6 Qd8 31. Qc4 Qa8
+32. Nc6 Qa3 33. Qb3 1-0
+
+
+[Event "Tradewise Gibraltar"]
+[Site "Catalan Bay GIB"]
+[Date "2011.02.01"]
+[EventDate "2011.01.25"]
+[Round "8"]
+[Result "1-0"]
+[White "Varuzhan Eduardovich Akobian"]
+[Black "David H Cummings"]
+[ECO "D37"]
+[WhiteElo "2618"]
+[BlackElo "2366"]
+[PlyCount "71"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Be7 4. Nf3 Nf6 5. Bf4 O-O 6. e3 Nbd7
+7. c5 c6 8. h3 b6 9. b4 a5 10. a3 Ne4 11. Nxe4 dxe4 12. Ne5
+Nxe5 13. Bxe5 f6 14. Bg3 Ba6 15. Bxa6 Rxa6 16. O-O Qd5 17. Qe2
+b5 18. a4 Qd7 19. axb5 cxb5 20. Rxa5 Rxa5 21. bxa5 Ra8 22. Ra1
+Bd8 23. f3 Qc6 24. fxe4 Rxa5 25. Rxa5 Bxa5 26. Bd6 Bc3 27. Qd3
+b4 28. d5 Qa4 29. c6 Qa1+ 30. Qf1 Qa8 31. c7 b3 32. Qc4 Qa1+
+33. Kh2 Be5+ 34. Bxe5 Qxe5+ 35. Kg1 Qa1+ 36. Kf2 1-0
+
+
+[Event "Tradewise Gibraltar"]
+[Site "Catalan Bay GIB"]
+[Date "2011.02.03"]
+[EventDate "2011.01.25"]
+[Round "10.21"]
+[Result "1-0"]
+[White "Varuzhan Eduardovich Akobian"]
+[Black "Husein Aziz Nezad"]
+[ECO "D30"]
+[WhiteElo "2618"]
+[BlackElo "2420"]
+[PlyCount "59"]
+
+1. d4 d5 2. c4 e6 3. Nf3 c6 4. e3 Bd6 5. Bd3 f5 6. O-O Nf6
+7. b3 Qe7 8. a4 a5 9. Ba3 Bxa3 10. Nxa3 O-O 11. Qb1 b6 12. Rc1
+Na6 13. Ne5 Nb4 14. cxd5 cxd5 15. Nc6 Nxc6 16. Rxc6 Rb8
+17. Qc2 Bd7 18. Rc7 Rbc8 19. Nb5 Rxc7 20. Nxc7 Ne4 21. Rc1 Qa3
+22. Bb5 Qe7 23. Bxd7 Qxd7 24. f3 Nd6 25. Qc6 Qe7 26. Qxb6 Rc8
+27. Rc5 Qg5 28. f4 Qh4 29. h3 Qe7 30. Nb5 1-0
+
+
+[Event "Tradewise Gibraltar"]
+[Site "Catalan Bay GIB"]
+[Date "2012.01.27"]
+[EventDate "2012.01.24"]
+[Round "4.25"]
+[Result "1-0"]
+[White "Varuzhan Eduardovich Akobian"]
+[Black "Roberto Junio Brito Molina"]
+[ECO "D37"]
+[WhiteElo "2617"]
+[BlackElo "2415"]
+[PlyCount "81"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Be7 4. Bf4 Nf6 5. e3 O-O 6. Nf3 Nbd7
+7. Qc2 c5 8. Rd1 cxd4 9. Rxd4 Qa5 10. Bg3 Nb6 11. Nd2 dxc4
+12. Bxc4 Nxc4 13. Nxc4 Qa6 14. O-O Bd7 15. Rfd1 Bc6 16. Bd6
+Bxd6 17. Nxd6 Bd5 18. Ndb5 Rac8 19. Qd2 Qb6 20. Na3 Qc5 21. e4
+Bc6 22. b4 Qe7 23. e5 Nd5 24. Ne4 Nb6 25. Nd6 Rb8 26. Nac4
+Nxc4 27. Rxc4 Bd5 28. Rd4 f6 29. f4 h6 30. Rxd5 exd5 31. Qxd5+
+Kh7 32. e6 f5 33. Nxf5 Qf6 34. Nd6 Rbd8 35. Qe4+ Kg8 36. f5
+Qe7 37. Qe5 g6 38. Rd3 Rf6 39. g4 Rff8 40. Nf7 Rxf7 41. exf7+
+1-0

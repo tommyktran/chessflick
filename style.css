@@ -113,6 +113,8 @@ a {
     z-index: 100;
 
     top: 15%;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 #import-modal textarea {
     width: 80%;
