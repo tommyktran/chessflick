@@ -46,7 +46,7 @@ header {
     margin-top: -10px;
 }
 .game-title {
-    margin: -5px 0 10px;
+    margin: -5px -100px 10px -100px;
     font-size: 30px;
 }
 
@@ -151,6 +151,10 @@ a {
     }
     #move-list {
         max-height: 200px;
+    }
+    #game-title {
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 @media (max-height: 600px) {
